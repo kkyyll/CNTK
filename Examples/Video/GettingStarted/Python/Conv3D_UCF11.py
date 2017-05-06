@@ -188,7 +188,7 @@ def conv3d_ucf11(train_reader, test_reader, max_epochs=30):
 
     # training config
     train_epoch_size     = train_reader.size()
-    train_minibatch_size = 4
+    train_minibatch_size = 2
 
     # Set learning parameters
     lr_per_sample          = [0.01]*10+[0.001]*10+[0.0001]
